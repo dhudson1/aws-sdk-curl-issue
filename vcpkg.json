@@ -1,0 +1,11 @@
+{
+  "name": "aws-sdk-curl-issue",
+  "version": "1.0.0",
+  "dependencies": [
+    "curl",
+    {
+      "name": "aws-sdk-cpp",
+      "features": ["secretsmanager", "ssm"]
+    }
+  ]
+}
