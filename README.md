@@ -18,4 +18,4 @@ The `--ssm <<SSM_parameter_path>>` gets the SSM parameter at the given path, wit
 If both the `--curl` and `--ssm` are set, then SSM will always run before curl.
 
 The additional flag `--run-curl-with-aws` will run libcurl between when `Aws::InitAPI` and `Aws::ShutdownAPI`. This will
-only be run when `--ssm` is also configured (Note: this libcurl will only go to `https://amazon.com`).
+only be run when `--ssm` is also configured (Note: this libcurl will only connect to `https://amazon.com`).
